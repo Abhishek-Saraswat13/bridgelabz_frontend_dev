@@ -52,26 +52,3 @@ Media and Embedding
 Image (<img>): Embeds an image. It is a self-closing tag and requires the src (source path) and alt (alternative text for accessibility) attributes.
 
 Audio/Video: <audio> and <video> tags allow native embedding of media content.
-
-IV. Modern Practice: Semantic HTML5
-Modern Practice: Semantic HTML5 Elements
-Semantic HTML is the practice of using elements based on their meaning, which significantly improves accessibility, SEO, and document readability for developers.
-
-Instead of relying solely on generic <div> elements, developers use specific semantic tags to clarify the role of content:
-
-<header>: This tag is used to contain introductory content, which typically includes elements like the site logo, the main heading, and often the primary navigation links.
-
-<nav>: This element is specifically designed to contain the major navigation links that allow users to move between different pages or sections of a document.
-
-<main>: This tag contains the dominant, unique content of the document. Crucially, there should only be one <main> element per page, and it should not contain content that is repeated across documents (like headers or footers).
-
-<article>: This signifies a self-contained, independent piece of content, such as a blog post, a news story, or a comment. It should be understandable even if taken out of the context of the rest of the page.
-
-<section>: This tag is used for a grouping of related content within a page, and it is typically defined by the inclusion of its own heading (e.g., a section for "About Us" or "Product Features").
-
-<footer>: This element contains authorship, copyright information, contact details, or related links for its closest ancestor sectioning content or the document as a whole.
-
-<div>: This remains a generic block-level container, but in modern practice, it is used only when no other semantic element is appropriate for grouping content for styling purposes.
-Semantic HTML is the practice of using elements based on their meaning, not just their appearance. This improves accessibility, SEO, and document readability for other developers.
-
-Instead of using generic <div> elements for structure, modern practice requires using specific semantic tags:
