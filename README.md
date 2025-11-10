@@ -1,5 +1,5 @@
-CSS 101: Styling the Web (Bridgelabz Frontend Development)
-👋 Welcome to the Presentation Layer!
+Styling the Web (Bridgelabz Frontend Development)
+Welcome to the Presentation Layer!
 You've learned that HTML is the skeleton (the Structure), and JavaScript is the brain (the Behavior). CSS (Cascading Style Sheets) is the clothes, makeup, and style—it's the Presentation Layer that makes the web beautiful and usable.
 
 What Is CSS?
@@ -43,7 +43,8 @@ Pros: Quick for testing or one-off changes.
 Cons: Highest priority (hard to override), clutters HTML, not reusable.
 
 Example: <p style="color: red; font-weight: bold;">Hello</p>
- The CSS Box Model (Crucial for Layout)The Box Model is the single most important concept in CSS layout. It says that every single HTML element is a rectangular box. Understanding its layers is essential for spacing and sizing elements correctly.Layer (Inside to Out)What it Controls1. ContentThe text/image itself (Controlled by width and height).2. PaddingInternal space between the content and the border.3. BorderThe visible line around the element.4. MarginExternal space outside the border, pushing other elements away.
+ The CSS Box Model (Crucial for Layout)The Box Model is the single most important concept in CSS layout. It says that every single HTML element is a rectangular box.
+ Understanding its layers is essential for spacing and sizing elements correctly.Layer (Inside to Out)What it Controls1. ContentThe text/image itself (Controlled by width and height).2. PaddingInternal space  between the content and the border.3. BorderThe visible line around the element.4. MarginExternal space outside the border, pushing other elements away.
  🏗️ Modern Layout Techniques
 Forget old-school float tricks; modern CSS gives us two powerful layout tools:
 
