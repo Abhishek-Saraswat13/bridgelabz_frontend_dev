@@ -18,13 +18,6 @@ CSS enables developers and designers to:
 - ⚙️ Separate design from structure (HTML)  
 - 🚀 Improve accessibility and user experience  
 
----
 
-## 🧱 Core Concepts
 
-### 1️⃣ **CSS Syntax**
-Every CSS rule consists of a **selector** and a **declaration block**:
-```css
-selector {
-  property: value;
-}
+
