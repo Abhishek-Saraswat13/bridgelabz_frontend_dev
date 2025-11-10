@@ -1,13 +1,7 @@
 The Class Selector is the cornerstone of scalable, component-based styling in CSS. Unlike the ID selector, which is unique, the Class Selector is designed for maximum reusability.
 Syntax and Structure
 The Class Selector is defined in a stylesheet by prefixing a chosen name with a dot (.).
-
-Example from Document: .highlight
-
-CSS Declaration:
-
 CSS
-
 .card-footer {
     background-color: #f5f5f5;
     padding: 15px;
@@ -17,10 +11,6 @@ Targeting Logic
 The class selector targets any and all HTML elements that include the corresponding class attribute, regardless of the element type (div, p, span, etc.).
 
 Targeting Logic from Document: Selects all elements possessing class="highlight".
-
-HTML Implementation Example:
-
-HTML
 
 <div class="card-footer">...</div>
 <p class="card-footer">...</p>
@@ -34,8 +24,5 @@ Modular Styling: Class selectors facilitate a modular approach, where styles are
 Specificity Control: Class selectors possess a balanced level of specificity—they are more specific than Type selectors (like p) but less specific than ID selectors (like #main-header). This makes them easy to manage, override, and combine without excessive use of !important.
 
 Combining Classes: A single HTML element can have multiple classes applied simultaneously, enabling composition. For instance, an element can be styled as a button and be given a specific color:
-
-HTML
-
 <button class="button primary-color large-size"></button>
 This allows complex styling to be built from many small, single-purpose class definitions.
