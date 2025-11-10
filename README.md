@@ -1,23 +1,35 @@
-Frontend-Dev
-Welcome to the Frontend-Dev repository! This repository is designed to organize your web development learning topic-wise, with separate branches for each area.
+# 🌐 Frontend Development - Main Branch
 
-Repository Structure
-Repository Name: Frontend-Dev
-Branching Strategy: Each topic has its own branch. Do not merge any branch into main. Always create a new branch from main and perform all operations in the respective topic branch.
-Topic-wise Branches
-main – Base branch
-intro-to-web-dev – Basics and introduction to web development
-html – HTML fundamentals
-html-block-&inline-elements – Understanding block and inline HTML elements
-html-iframes – Working with HTML iframes
-css – CSS fundamentals
-flex – Flexbox layouts in CSS
-css-model – Box model in CSS
-css-classes – Working with CSS classes
-responsive-css – Responsive web design techniques
-bootstrap – Using Bootstrap framework
-Notes
-Always create a new branch from main for each topic.
-Perform all changes in the respective topic branch.
-Avoid merging topic branches into main.
-Happy Coding! 🚀
+Welcome to the **Frontend Development** repository!  
+This branch focuses on the foundational technologies of the web — **HTML** and **CSS** — providing a solid base for building responsive and visually appealing websites.
+
+---
+
+## 📁 Project Overview
+
+This project is part of our frontend development learning and implementation track.  
+In this branch, we’ve covered the **core structure (HTML)** and **styling (CSS)** of web pages to create a complete and visually engaging user interface.
+
+---
+
+## 🧱 Technologies Covered
+
+### **1. HTML (HyperText Markup Language)**
+- Structuring the layout of web pages.
+- Semantic HTML elements (`<header>`, `<nav>`, `<main>`, `<footer>`, etc.).
+- Forms and input elements.
+- Embedding images, videos, and links.
+- Accessibility best practices.
+
+### **2. CSS (Cascading Style Sheets)**
+- Styling HTML elements.
+- CSS selectors and specificity.
+- Box model and layout techniques.
+- Responsive design with media queries.
+- Flexbox and CSS Grid.
+- Transitions, animations, and pseudo-classes.
+
+---
+
+## 📂 Folder Structure
+
