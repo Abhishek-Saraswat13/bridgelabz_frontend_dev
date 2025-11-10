@@ -1,28 +1,27 @@
-The Class Selector is the cornerstone of scalable, component-based styling in CSS. Unlike the ID selector, which is unique, the Class Selector is designed for maximum reusability.
-Syntax and Structure
-The Class Selector is defined in a stylesheet by prefixing a chosen name with a dot (.).
-CSS
-.card-footer {
-    background-color: #f5f5f5;
-    padding: 15px;
-    border-top: 1px solid #eee;
-}
-Targeting Logic
-The class selector targets any and all HTML elements that include the corresponding class attribute, regardless of the element type (div, p, span, etc.).
+The CSS Class Selector
+The Class Selector is a fundamental tool for applying styles across multiple elements, making it essential for modular and scalable web design.
 
-Targeting Logic from Document: Selects all elements possessing class="highlight".
+Syntax and Purpose
+Syntax: Defined in CSS by a leading dot (.) followed by a chosen class name (e.g., .highlight).
 
-<div class="card-footer">...</div>
-<p class="card-footer">...</p>
-Both the div and the p element above will receive the same styles defined by .card-footer.
+Targeting Logic: It targets all HTML elements that possess the corresponding class attribute (e.g., class="highlight").
 
-Significance and Best Practices
-High Reusability: The primary advantage of the class selector is its reusability. It allows a single CSS definition (e.g., .button-primary) to be applied thousands of times across a website, ensuring visual consistency and significantly reducing code duplication.
+Reusability: Classes offer the highest degree of style reusability. A single class definition can be applied to any number of element types (<div>, <p>, <span>, etc.) across a document or an entire website.
 
-Modular Styling: Class selectors facilitate a modular approach, where styles are treated as independent components (e.g., .alert, .button, .nav-item). This approach is essential for large, maintainable projects and frameworks.
+Practical Application
+The Class Selector is strategically positioned in the CSS specificity hierarchy:
 
-Specificity Control: Class selectors possess a balanced level of specificity—they are more specific than Type selectors (like p) but less specific than ID selectors (like #main-header). This makes them easy to manage, override, and combine without excessive use of !important.
+It is more specific than the Type (Element) Selector (e.g., h1).
 
-Combining Classes: A single HTML element can have multiple classes applied simultaneously, enabling composition. For instance, an element can be styled as a button and be given a specific color:
-<button class="button primary-color large-size"></button>
-This allows complex styling to be built from many small, single-purpose class definitions.
+It is less specific than the ID Selector (e.g., #main-header).
+
+This balanced specificity ensures that class-based styles are generally powerful enough to override basic element defaults but remain flexible enough to be overridden by higher-priority IDs or Inline styles when necessary.
+
+Key Advantage: Modular Styling
+The primary advantage of classes is that they facilitate a modular approach to styling. Developers define small, reusable style components (e.g., .button-primary, .text-center, .alert) which can then be combined on a single HTML element.
+
+Example of Composition: An element can be given multiple classes to inherit different behaviors:
+<div class="card-layout shadow-depth-2 responsive-width">
+    <!-- Content goes here -->
+</div>
+In this example, the div inherits styles for layout, shadow effects, and responsive sizing simultaneously from three distinct class rules.
