@@ -1,30 +1,41 @@
-# Frontend-Dev
+The Class Selector is the cornerstone of scalable, component-based styling in CSS. Unlike the ID selector, which is unique, the Class Selector is designed for maximum reusability.
+Syntax and Structure
+The Class Selector is defined in a stylesheet by prefixing a chosen name with a dot (.).
 
-Welcome to the **Frontend-Dev** repository! This repository is designed to organize your web development learning topic-wise, with separate branches for each area.
+Example from Document: .highlight
 
-## Repository Structure
+CSS Declaration:
 
-- **Repository Name:** `Frontend-Dev`
-- **Branching Strategy:** Each topic has its own branch. Do **not merge any branch into `main`**. Always create a new branch from `main` and perform all operations in the respective topic branch.
+CSS
 
-### Topic-wise Branches
+.card-footer {
+    background-color: #f5f5f5;
+    padding: 15px;
+    border-top: 1px solid #eee;
+}
+Targeting Logic
+The class selector targets any and all HTML elements that include the corresponding class attribute, regardless of the element type (div, p, span, etc.).
 
-1. `main` – Base branch
-2. `intro-to-web-dev` – Basics and introduction to web development
-3. `html` – HTML fundamentals
-4. `html-block-&inline-elements` – Understanding block and inline HTML elements
-5. `html-iframes` – Working with HTML iframes
-6. `css` – CSS fundamentals
-7. `flex` – Flexbox layouts in CSS
-8. `css-model` – Box model in CSS
-9. `css-classes` – Working with CSS classes
-10. `responsive-css` – Responsive web design techniques
-11. `bootstrap` – Using Bootstrap framework 
+Targeting Logic from Document: Selects all elements possessing class="highlight".
 
-## Notes
+HTML Implementation Example:
 
-- Always create a new branch from `main` for each topic.
-- Perform all changes in the respective topic branch.
-- Avoid merging topic branches into `main`.
+HTML
 
-Happy Coding! 🚀
+<div class="card-footer">...</div>
+<p class="card-footer">...</p>
+Both the div and the p element above will receive the same styles defined by .card-footer.
+
+Significance and Best Practices
+High Reusability: The primary advantage of the class selector is its reusability. It allows a single CSS definition (e.g., .button-primary) to be applied thousands of times across a website, ensuring visual consistency and significantly reducing code duplication.
+
+Modular Styling: Class selectors facilitate a modular approach, where styles are treated as independent components (e.g., .alert, .button, .nav-item). This approach is essential for large, maintainable projects and frameworks.
+
+Specificity Control: Class selectors possess a balanced level of specificity—they are more specific than Type selectors (like p) but less specific than ID selectors (like #main-header). This makes them easy to manage, override, and combine without excessive use of !important.
+
+Combining Classes: A single HTML element can have multiple classes applied simultaneously, enabling composition. For instance, an element can be styled as a button and be given a specific color:
+
+HTML
+
+<button class="button primary-color large-size"></button>
+This allows complex styling to be built from many small, single-purpose class definitions.
