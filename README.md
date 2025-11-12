@@ -88,5 +88,37 @@ By the end of this course, you’ll be able to:
 ✅ Master Flexbox for structured and fluid designs  
 ✅ Understand and utilize the Box Model effectively  
 ✅ Collaborate using Git & GitHub like a professional  
+
+## 📂 Task Provided
+
+Task covered during class sessions:
+
+| Project Name | Description |
+|---------------|-------------|
+| 🌐 **HTML Page** | Basic structured webpage demonstrating semantic tags |
+| 🍽️ **Zomato Clone** | Replica of Zomato’s homepage using HTML & CSS |
+| 🕒 **Timetable** | Weekly timetable layout using tables and styling |
+| 🧾 **Card Page** | A stylish card layout built using HTML & Flexbox |
+| 🧮 **Calculator** | Interactive calculator using HTML, CSS, and JavaScript |
+| 💫 **Animation Page** | CSS animations and keyframes for smooth effects |
+| 🖱️ **Hover Effects** | Interactive hover transitions and animations |
+
+## 🤝 Mentorship  
+
+This program is proudly curated under the mentorship of:  
+👨‍🏫 **Sahil Sir** — Frontend Design & Layouts  
+👨‍🏫 **Deepak Sir** — HTML & Web Fundamentals  
+
+> Their combined guidance ensures every learner not only codes but *creates*.
+
+---
+
+<p align="center">
+  💻 <b>Designed with ❤️ by Abhishek Saraswat</b>  
+  <br>
+  <i>“Frontend isn’t just code — it’s creativity translated into experience.”</i>
+</p>
+
+---
  
 
